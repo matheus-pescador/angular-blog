@@ -6,11 +6,9 @@
 
     <div class="small-card__title">
       <h1>
-        <a href="#">{{ cardTitle }}</a>
+        <a [routerLink]="['content', id]">{{ cardTitle }}</a>
       </h1>
     </div>
   </div>
-  <div class="container__small-card-separator">
-    <hr />
-  </div>
+  <div class="container__small-card-separator"></div>
 </div>

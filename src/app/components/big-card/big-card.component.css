@@ -1,5 +1,4 @@
 .container__big-card {
-
   margin-left: 30px;
   margin-right: 30px;
   width: 400px;
@@ -24,7 +23,8 @@
   color: grey;
 }
 
-.big-card__photo > img{
-width: 100%;
-min-width: 400px;
+.big-card__photo > img {
+  border: 1px solid rgb(102, 100, 100);
+  width: 100%;
+  min-width: 400px;
 }
